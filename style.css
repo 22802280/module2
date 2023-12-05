@@ -40,6 +40,10 @@ nav{
     font-size: 25px;
 }
 
+.link:hover{
+    color: #de8559;
+}
+
 .btn{
     background-color: #de8559;
     border: none;
@@ -49,6 +53,10 @@ nav{
     color: #FFFFFF;
     font-weight: 300;
     font-size: 20px;
+}
+
+.btn:hover{
+    background-color: #c97146;
 }
 
 .planet{
@@ -113,6 +121,11 @@ input{
     border-radius: 10px;
     padding: 5px 20px;
     font-size: 20px;
+    outline:none;
+}
+
+input:focus {
+    border:#de8559 3px solid 
 }
 
 main{
